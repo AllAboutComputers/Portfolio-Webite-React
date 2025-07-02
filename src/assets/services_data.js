@@ -33,7 +33,7 @@ const Projects_Data = [
     s_no: "06",
     s_name: "Portfolio Website – React",
     s_desc: "Built with React.js & CSS featuring dynamic sections, resume download, and smooth scrolling.",
-    link: "https://github.com/AllAboutComputers/PortfolioWebsite" // Replace with actual link if different
+    link: "https://github.com/AllAboutComputers/Portfolio-Webite-React"
   }
 ];
 
