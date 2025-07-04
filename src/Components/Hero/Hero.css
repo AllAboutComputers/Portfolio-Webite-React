@@ -88,7 +88,7 @@
 }
 
 
-@media(max-width:768px){
+@media screen {
     .hero img{
         margin-bottom: 10px;
         width: auto;
