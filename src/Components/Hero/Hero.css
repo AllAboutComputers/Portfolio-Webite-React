@@ -1,8 +1,16 @@
 #typewriter {
-    font-size: 50px;
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-height: 60px;            
+  white-space: normal;          
+  word-break: break-word;       
+  overflow-wrap: break-word;    
+  max-width: 100%;              
+  line-height: 1.2;
+  text-align: center;
 }
 
 .hero{
@@ -33,7 +41,6 @@
     background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
-
 .hero p {
     text-align: center;
     width: 50%;
@@ -55,9 +62,9 @@
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
-    text-decoration: none;     /* Remove underline */
-    color: white;              /* Set text color to white */
-    display: inline-block;     /* Ensure proper box model */
+    text-decoration: none;     
+    color: white;              
+    display: inline-block;     
 }
 
 
@@ -89,6 +96,7 @@
 
 
 @media(max-width: 768px) {
+
     .hero img{
         margin-bottom: 10px;
         width: auto;
@@ -118,7 +126,7 @@
     }
 
     .hero-connect{
-        padding: 20px 30px;
+        padding: 20px 75px;
         border-radius: 40px;
         height: 25px;
     }

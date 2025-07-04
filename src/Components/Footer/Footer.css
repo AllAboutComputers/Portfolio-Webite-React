@@ -60,6 +60,7 @@
     display: flex;
     gap: 30px;
     padding: 20px 30px;
+    margin: auto;
     border-radius: 50px;
     background: #32323b;
     padding-right: 80px;
@@ -133,5 +134,9 @@
 
     .footer-top-center{
         display: none;
+    }
+
+    .footer-subscribe{
+        margin: auto;
     }
 }

@@ -7,17 +7,21 @@ import Typewriter from 'typewriter-effect/dist/core';
 const Hero = () => {
     useEffect(() => {
         const typewriter = new Typewriter('#typewriter', {
-            strings: ["Hello, I'm Kunaal Solanki,"],
-            autoStart: true,
-            loop: true,
-            delay: 75,
+            delay: 100,
+            loop: false,
         });
+
+        typewriter
+            .typeString("Hello, I'm Kunaal Solanki,")
+            .start();
     }, []);
 
     return (
         <div id='home' className="hero">
             <img src={profile_img} alt="Profile" />
-            <h1><span id="typewriter"></span> crafting code from Mumbai.</h1>
+            <h1>
+                <span id="typewriter"></span> crafting code from Mumbai.
+            </h1>
             <p>
                 I'm a full stack developer driven by curiosity and creativity—bringing ideas to life through elegant and efficient web solutions.
             </p>

@@ -196,8 +196,8 @@
     }   
 
     .about-skill-mobile p{
-    min-width: 150px;
-    font-size: 24px;
+    min-width: auto;
+    font-size: 18px;
     font-weight: 500;
     }
 
@@ -205,7 +205,7 @@
     outline: none;
     border: none;
     width: 50%;
-    height: 8px;
+    height: 6px;
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
     }
