@@ -139,4 +139,10 @@
     .footer-subscribe{
         margin: auto;
     }
+
+    .footer-email-input{
+     padding-left: 10px;
+     padding-right: 10px;
+
+    }
 }
