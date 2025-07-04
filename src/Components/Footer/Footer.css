@@ -123,6 +123,15 @@
 
     .footer-bottom-right{
         align-items: center;
-        padding-left: 75px;
+    }
+    
+    .footer-top-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-top-center{
+        display: none;
     }
 }
